@@ -122,7 +122,7 @@ Module.register("MMM-homeassistant-sensors", {
 		statElement.innerHTML = title;
 		wrapper.appendChild(statElement);
 
-		if (data && !this.isEmpty(data)) {
+		if (data) {
 			var tableElement = document.createElement("table");
 
 			var values = this.config.values;
